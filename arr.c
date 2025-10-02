@@ -104,30 +104,47 @@
 
 //Read 5 numbers into an array and find their sum.
 
-#include<stdio.h>
-#include<stdlib.h>
-#include<time.h>
+// #include<stdio.h>
+// #include<stdlib.h>
+// #include<time.h>
 
-int main(){
-    srand(time(0));
-    int a[20];
-    for(int i= 0; i<=19; i++){
-        a[i]= rand() % 100;
-    }
+// int main(){
+//     srand(time(0));
+//     int a[20];
+//     for(int i= 0; i<=19; i++){
+//         a[i]= rand() % 100;
+//     }
 
-    for(int i = 0; i<=19; i++){
-        printf("%d\n", a[i]);
-    }
-    printf("\n \n");
+//     for(int i = 0; i<=19; i++){
+//         printf("%d\n", a[i]);
+//     }
+//     printf("\n \n");
 
-    int sum = 0;
+//     int sum = 0;
 
-for(int j= 0; j<=4; j++){
-    int k= rand() %20;
-    printf("%d\n",a[k]);
-    sum += a[k];
-}
-printf("%d", sum);
+// for(int j= 0; j<=4; j++){
+//     int k= rand() %20;
+//     printf("%d\n",a[k]);
+//     sum += a[k];
+// }
+// printf("%d", sum);
 
-    return 0;
-}
+//     return 0;
+// }
+
+
+
+//Read 10 numbers into an array and calculate the average.
+// #include<stdio.h>
+
+// int main(){
+// int a[] = {31,45,3,44,52,3,4,5,6,7,8};
+// int sum = 0;
+// for(int i = 0;i<=4;i++){
+//     sum +=a[i];
+// };
+// printf("%d", sum/5);
+
+// return 0;
+// }
+
