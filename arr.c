@@ -148,3 +148,5 @@
 // return 0;
 // }
 
+//Read 5 numbers into an array and print them in reverse order.
+
